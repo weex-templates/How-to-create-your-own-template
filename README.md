@@ -78,5 +78,29 @@ while the router is false, this line will be show
 {{/unless}}
 ```
 
+## Usage
+```
+$ weex create <template> [project-name] [options]
+```
+
+1. Create a new project with an official template, if the `<template>` has no slash, it will search template from `https://github.com/weex-templates` and the default template is `https://github.com/weex-templates/webpack`.
+```
+$ weex create my-project
+$ weex create webpack my-project
+```
+
+2. create a new project straight from a github or other remote template.
+
+- GitHub - github:owner/name or simply owner/name
+- GitLab - gitlab:owner/name
+- Bitbucket - bitbucket:owner/name
+
+```
+$ weex create username/repo my-project . #github
+$ weex create gitlab:username/repo my-project . #gitlab
+$ weex create bitbucket:username/repo my-project . #bitbucket
+```
+
+
 If you have any questions, please create a issue to me.
 
