@@ -24,10 +24,10 @@ If you want to get the best experience, it is best to implement these commands
 
 ``` bash
 .
-├── template/                   # folder for [ios|android] project
+├── template/                   # template folder for weex project
 │   └── configs                 # webpack config files
 │   │   └── ...
-│   └── platforms
+│   └── platforms               # folder for [ios|android] project
 │   │   └── platforms.json      # file for storing platform version
 │   │   └── ...
 │   └── plugins
